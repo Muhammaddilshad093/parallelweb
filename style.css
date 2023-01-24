@@ -1,0 +1,113 @@
+body, html{
+    height: 100%;
+    margin: 0;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+
+}
+body{
+    display: block;
+}
+
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.ptext .border{
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.ptext .border.trans {
+    background-color: transparent;
+}
+
+.ping1{
+    background-image: url(./images/jack-finnigan-Mxqvo8hhY1s-unsplash.jpg);
+    min-height: 100%; 
+}
+
+.ping2{
+    background-image: url(./images/luca-bravo-TaCk3NspYe0-unsplash.jpg);
+    min-height: 400px;
+}
+
+.ping3{
+    background-image: url(./images/luke-porter-pUqTHJ5gq-U-unsplash.jpg);
+    min-height: 400px;
+}
+
+.ping1, .ping2, .ping3{
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h2{
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-block-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+div{
+    display: block;
+
+}
+
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-inline-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.section-light{
+    background-color: #f4f4f4;
+    color: #666;
+}
+
+.section-dark{
+    background-color: #282e34;
+    color: #ddd;
+}
+
+.section{
+    text-align: center;
+    padding: 50px 80px;
+    padding-top: 50px;
+    padding-right: 80px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+
+section{
+    display: block;
+}
